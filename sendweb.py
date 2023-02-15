@@ -111,8 +111,8 @@ if __name__ == "__main__":
     #ocrws_uri = "wss://palondomus-caesarai.hf.space/caesarocrws"
     #CaesarSendWeb.send_video_websocket(uri = ocrws_uri)
     
-    #facedetect_uri = "wss://palondomus-caesarai.hf.space/caesarfacedetectws"
-    #CaesarSendWeb.send_video_websocket(uri = facedetect_uri)
+    facedetect_uri = "wss://palondomus-caesarai.hf.space/caesarfacedetectws"
+    CaesarSendWeb.send_video_websocket(uri = facedetect_uri)
     
     #ocr_uri = "http://palondomus-caesarai.hf.space/caesarfacesnap"
     #cropped_image = CaesarSendWeb.send_image_recieve_image(uri = ocr_uri,saveimage=True)
